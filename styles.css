@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+#navbar a:hover {
+    color: #4a90e2;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4f8;
+    text-align: center;
+}
+
+#projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-tile {
+    margin-top: 20px;
+}
+
+.project-tile a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+
+.project-tile a:hover {
+    color: #4a90e2;
+}
+
+@media (max-width: 600px) {
+    #navbar {
+        padding: 15px;
+    }
+    
+    #navbar a {
+        font-size: 1em;
+        margin: 0 10px;
+    }
+}
