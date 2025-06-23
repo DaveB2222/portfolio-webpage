@@ -52,6 +52,31 @@
     color: #4a90e2;
 }
 
+#about {
+    padding: 50px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+#about p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     #navbar {
         padding: 15px;
